@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - main  # замените на вашу основную ветку, если она называется master
+      - master  # замените на вашу основную ветку, если она называется master
 
 jobs:
   build-and-deploy:
