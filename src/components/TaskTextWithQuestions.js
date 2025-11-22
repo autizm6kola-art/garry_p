@@ -222,6 +222,10 @@ function TaskTextWithQuestions({ task, onUpdateProgress, resetSignal }) {
               <div className="question-header">
                 <strong>{q.id}.</strong>
                 <p>{q.text}.</p>
+                {/* {q.audio && (
+                  <audio controls 
+                  src={process.env.PUBLIC_URL + q.audio}/>
+                  )} */}
 
                 <button
                   className="save-single-button"
