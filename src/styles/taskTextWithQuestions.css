@@ -7,7 +7,7 @@
   border-radius: 10px;
   gap: 30px;
 
-  max-width: 900px; /* фиксированная максимальная ширина */
+  max-width: 1000px; /* фиксированная максимальная ширина */
   margin: 0 auto;   /* центрирование контейнера */
   width: 100%;      /* чтобы адаптировалось для экранов меньше 900px */
 }
@@ -29,7 +29,7 @@
 
 .text-block p {
   white-space: pre-line;
-  line-height: 1.7;
+  line-height: 2.3;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
