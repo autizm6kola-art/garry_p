@@ -8,6 +8,7 @@ import ProgressBar from "./ProgressBar";
 import BackButton from "./BackButton";
 import { getSavedAnswer, clearAllAnswers } from "../utils/storage";
 import "../styles/menuPage.css";
+import BackupControls from './BackupControls';
 
 function MenuPage({ allTasks, onSelectRange }) {
   const [ranges, setRanges] = useState([]);
@@ -119,6 +120,8 @@ function MenuPage({ allTasks, onSelectRange }) {
       >
         Сбросить все ответы
       </button>
+
+      <BackupControls />
     </div>
   );
 }
